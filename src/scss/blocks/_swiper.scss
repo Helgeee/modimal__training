@@ -1,0 +1,28 @@
+.swiper{
+    width: 100%;
+    padding-bottom: 32px !important;
+
+    @include mobile {
+        padding-bottom: 20px !important;
+    }
+
+    .swiper-pagination-bullet{
+        height: 14px;
+        width: 14px;
+        background-color: var(--neutral-grayadadad) !important; 
+        opacity: 1 !important ;
+        
+        margin-left: 8px !important;
+        margin-right: 8px !important;  
+
+        @include mobile {
+            height: 8px !important;  
+            width: 8px !important;  
+        }
+        
+    }
+    .swiper-pagination-bullet-active{
+        background-color: var(--neutral-graydfdfdf) !important;
+    }
+   
+}

@@ -1,0 +1,22 @@
+.best-sellers {
+     
+    &__title-wrapper{
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include mobile {
+            margin-bottom: 8px;
+        }
+        
+    }
+    @include mobile{
+        gap: 24px;
+    }
+
+    &__link{
+        display: none;
+    }
+
+
+}
